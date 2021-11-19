@@ -40,8 +40,8 @@ ingenieria :-
 	pregunta('¿Le gusta manejar equipos?'),
 	pregunta('¿Considera que tiene capacidad de analisis?'),
 	pregunta('¿Tienes habilidades manuales?'),
-	pregunta('¿Facilidad para trabajo en equipo?'),
-	pregunta('¿Tiene capacidad de innovación?').
+	pregunta('¿Facilidad para trabajo en equipo?').
+	
 
 medicina :-
 	quiere_medicina,
@@ -86,7 +86,7 @@ administracion :-
 	pregunta('¿Considera que tiene pensamiento estrategico?').
 
 
-%desconocido :- se_desconoce_vocacion.
+
 
 quiere_ingenieria:-	pregunta('¿Le gusta resolver problemas?').
 quiere_medicina:-	pregunta('¿Le gusta leer?').
